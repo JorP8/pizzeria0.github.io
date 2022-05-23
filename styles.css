@@ -1,0 +1,62 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0px;
+	font-family: 'Lora', serif;
+}
+a{
+	text-decoration: none;
+}
+.pedido a{
+   color: orange;
+   background-color: white;
+   border-radius: 2px;
+}
+.pedido a:hover{
+	color: black;
+}
+.titulo{
+	font-family: 'Courgette', cursive;
+}
+
+header{
+	flex-direction: column;
+	background-color: orange;
+	min-height: 15vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 14px;
+
+}
+.container{
+	height: 50vh;
+	width: 100%;
+	text-align: center;
+	flex-direction: column;
+}
+
+#hero .container{
+	color: orange;
+	height: 40vh;
+	display: flex;
+	background-image: url("img/fondo0.jpg");
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#especialidad .container{
+	font-family: 'Courgette', cursive;
+color: white;
+height: 30vh;
+display: flex;
+background-image: url("img/madera.jpg");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+footer .container{
+	height: 10vh;
+	background-color: orange;
+}
