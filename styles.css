@@ -6,7 +6,7 @@ body{
 	font-family: 'Lora', serif;
 }
 a{
-	font-size: 12px;
+	font-size: 18px;
 	text-decoration: none;
 }
 .pedido a{
@@ -81,15 +81,16 @@ header{
 	
 }
 #pizzas .container{
-
+	display: flex;
 	background-color: orange;
 	height: auto;
-	display: flex;
 	justify-content: center;
 	align-items: center;
-	text-align: initial;
+	text-align: center;
 	flex-direction: column;
 }
+
+
 
 #especialidad .container{
 	justify-content: center;
