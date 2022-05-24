@@ -6,6 +6,7 @@ body{
 	font-family: 'Lora', serif;
 }
 a{
+	font-size: 12px;
 	text-decoration: none;
 }
 .pedido a{
@@ -37,13 +38,19 @@ header{
 	justify-content: space-between;
 	align-items: center;
 	padding: 14px;
-
+	box-shadow: 0px 9px 15px black;
+ 	
+}
+.menu a{
+	padding: 3px 10px;
 }
 .container{
 	height: auto;
 	width: 100%;
 	text-align: center;
 	flex-direction: column;
+	box-shadow: 0px 9px 6px grey;
+
 }
 #2 .container{
 	display: flex;
@@ -51,6 +58,12 @@ header{
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+}
+.container button{
+	color: orange;
+	background: white;
+	border-radius: 2px;
+
 }
 
 #hero .container{
@@ -68,6 +81,7 @@ header{
 	
 }
 #pizzas .container{
+
 	background-color: orange;
 	height: auto;
 	display: flex;
@@ -91,14 +105,48 @@ background-position: center center;
 background-repeat: no-repeat;
 }
 #pedidos .container{
-	height: 40vh;
+	height: auto;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+#pedidos a{
+	font-size: 14px;
+	color: white;
+	background: #2FD676;
+	border-radius: 15px;
+	padding: 0px 5px;
+	transition: .4s;
+}
+#pedidos a:hover{
+	font-size: 30px;
+}
+#reparto .container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 footer .container{
 	height: 10vh;
 	background-color: orange;
 }
 i{
+
 	height: 30px;
 	font-size: 32px;
 	padding: 0 4px;
+}
+.subir i{
+	color: #2FD676;
+	height: 70px;
+	font-size: 70px;
+	padding: 0 4px;
+}
+.subir {
+
+	position: fixed;
+	align-items: flex-end;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
 }
